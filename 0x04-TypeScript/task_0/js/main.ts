@@ -9,7 +9,7 @@ const student1: Student = {
     firstName: 'firdaus',
     lastName: 'salim',
     age: 21,
-    location: 'mombasa',
+    location: 'nairobi',
 };
 const student2: Student = {
     firstName: 'beta',
@@ -17,11 +17,20 @@ const student2: Student = {
     age: 25,
     location: 'kenya',
 };
+const student3: Student = {
+  firstName: "beta",
+  lastName: "scribbles",
+  age: 29,
+  location: "kenya",
+};
 
-const studentsList: Student[] = [student1, student2];
+
+
+const studentsList: Student[] = [student1, student2,student3];
 
 const table = document.createElement('table');
 const tbody = document.createElement('tbody');
+
 
 table.style.background = "lightgray";
 table.appendChild(tbody);
